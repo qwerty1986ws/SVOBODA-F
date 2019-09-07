@@ -1,0 +1,17 @@
+.main-footer {
+  display: flex;
+  background: $black__1;
+
+  &__desc {
+    width: 425px;
+    margin-right: 100px;
+  }
+
+  &__contacts {
+    margin-right: 150px;
+  }
+
+  &__socials {
+    margin: auto 0 0 auto;
+  }
+}
