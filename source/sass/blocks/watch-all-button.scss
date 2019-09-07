@@ -1,0 +1,13 @@
+.watch-all {
+	display: flex;
+	justify-content: center;
+	padding: 120px;
+    &__link {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border: solid 1px #fff;
+      padding: 4px 25px;
+      border-radius: 3px;
+    }
+}

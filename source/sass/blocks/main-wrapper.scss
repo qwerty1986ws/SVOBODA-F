@@ -1,4 +1,9 @@
 .main-wrapper {
   padding: 36px 138px 0 138px;
   background: url("../img/main-wrapper-bg.jpg") no-repeat;
+  
+
+  &--projects {
+  	background: transparent;
+  }
 }
