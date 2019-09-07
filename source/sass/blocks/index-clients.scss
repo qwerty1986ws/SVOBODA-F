@@ -1,0 +1,9 @@
+.index-clients {
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0;
+    margin: 0;
+    list-style: none;
+  }
+}
