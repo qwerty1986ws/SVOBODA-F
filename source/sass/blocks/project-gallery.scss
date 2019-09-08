@@ -1,0 +1,41 @@
+
+.video-row {
+	padding: 0 138px;
+
+	&__list {
+		display: flex;
+		padding: 0;
+		justify-content: space-between;
+	}
+
+	&__item {
+    margin: 0;
+    position: relative;
+    list-style: none;
+	}
+
+	&__inscription {
+		position: absolute;
+		color: #FFFFFF;
+		margin: 0;
+		left: -13px;
+		bottom: -7px;
+		max-width: 315px;
+		font-style: bold;
+		font-size: 24px;
+		line-height: 1.12;
+		&::before {
+		content: "";
+	    position: absolute;
+        background: #FF0202;
+        border-radius: 50%;
+        width: 21px;
+        height: 21px;
+        top: 50%;
+        left: -27px;
+        margin-top: -10px;
+	    }
+		
+	}
+
+}
