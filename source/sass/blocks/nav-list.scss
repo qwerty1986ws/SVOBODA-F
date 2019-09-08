@@ -31,7 +31,8 @@
       transition-duration: $main-duration;
     }
 
-    &:hover {
+    &:hover,
+    &.is-current-page {
       &::after {
         width: 100%;
       }

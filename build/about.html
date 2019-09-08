@@ -10,9 +10,9 @@
   <body>
     <div class="body-wrapper">
       <div class="top-page">
-        <div class="main-wrapper">
+        <div class="main-wrapper main-wrapper--about">
           <header class="main-wrapper__header main-header">
-            <a class="main-header__logo-link">
+            <a class="main-header__logo-link" href="index.html">
               <picture>
                 <source srcset="img/main-logo.webp" type="image/webp">
                 <img src="img/main-logo.png" alt="Логотип Свобода">
@@ -21,7 +21,7 @@
             <nav class="main-header__nav header-nav">
               <ul class="header-nav__list nav-list">
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#">Главная</a>
+                  <a class="nav-list__link" href="index.html">Главная</a>
                 </li>
                 <li class="nav-list__item">
                   <a class="nav-list__link" href="#">Проекты</a>
@@ -30,7 +30,7 @@
                   <a class="nav-list__link" href="#">Стоимость</a>
                 </li>
                 <li class="nav-list__item">
-                  <a class="nav-list__link" href="#">О нас</a>
+                  <a class="nav-list__link is-current-page" href="#">О нас</a>
                 </li>
                 <li class="nav-list__item">
                   <a class="nav-list__link" href="#">Контакты</a>
@@ -38,92 +38,36 @@
               </ul>
             </nav>
           </header>
-          <div class="main-wrapper__banner banner">
-              <ul class="banner__socials socials">
-                <li class="socials__item">
-                  <a class="socials__link" href="#">
-                    <img src="img/youtube.png" alt="Ссылка в youtube">
-                  </a>
-                  </li>
-                  <li class="socials__item">
-                    <a class="socials__link" href="#">
-                      <img src="img/vk.png" alt="Ссылка в VK">
-                    </a>
-                  </li>
-                  <li class="socials__item">
-                    <a class="socials__link" href="#">
-                      <img src="img/instagram.png" alt="Ссылка в instagram">
-                    </a>
-                  </li>
-                </ul>
-              <picture class="banner__logo">
-                <source srcset="img/banner-logo.webp" type="image/webp">
-                <img src="img/baner-logo.png" alt="Логотип Свобода">
-              </picture>
-              <a class="banner__link" href="#">Обратная связь</a>
-            </div>
-          </div>
         </div>
         <main class="main">
-            <section class="main__index-slider index-slider">
-              <ul class="index-slider__list">
-                <li class="index-slider__item"><img src="img/slide-1.jpg" alt="Девчонка"></li>
-                <li class="index-slider__item"><img src="img/slide-2.jpg" alt="Другая девчонка"></li>
-                <li class="index-slider__item"><img src="img/slide-3.jpg" alt="another девчонка"></li>
-              </ul>
-              <button class="index-slider__btn index-slider__btn--prev" type="button"></button>
-              <button class="index-slider__btn index-slider__btn--next" type="button"></button>
-            </section>
-          <section class="main__index-desc index-desc">
-            <h2 class="index-desc__title">Кто мы</h2>
-            <p class="index-desc__text">
-              Свобода-это видео продакшн полного цикла.<br> Наша команда ведёт проект от идеи до сдачи видео-ролика клиенту.
-            </p>
+          <section class="main__about-article about-article">
+            <h2 class="about-article__title">О нас</h2>
+            <p class="about-article__text">Свобода-амбициозное объединение творческих людей, которые готовы на все,чтобы сделать крутой и стильный продукт. Мы - новое поколение со свежим взглядом на окружающий мир и происходящее в нём . Мы сделаем все, чтобы изготовить клиенту уникальный продукт. Наша миссия -вывести Вас на новый уровень!</p>
           </section>
-          <section class="index-video">
-            <img src="img/index-video-preview.jpg" alt="Видяшка">
-          </section>
-          <section class="main__services index-services">
-            <h2 class="index-services__title">Выбирайте подходящее направление</h2>
-            <ul class="index-services__list">
-              <li class="index-services__item">
-                <a class="index-services__item-link" href="#">
-                  <img src="img/nav-1.jpg" alt="Картинка">
-                  <h3 class="index-services__item-title">клипы</h3>
-                </a>
+          <section class="main__about-team about-team">
+            <h2 class="about-team__title">Наша команда</h2>
+            <ul class="about-team__list">
+              <li class="about-team__item">
+                <img src="img/team-1.jpg" alt="Красавчик">
+                <h3 class="about-team__item-title">Савва Кабацкий</h3>
+                <p class="about-team__item-desc">Продюссер</p>
               </li>
-              <li class="index-services__item">
-                <a class="index-services__item-link" href="#">
-                  <img src="img/nav-2.jpg" alt="Картинка">
-                  <h3 class="index-services__item-title">рекламные ролики</h3>
-                </a>
+              <li class="about-team__item">
+                <img src="img/team-2.jpg" alt="Красавчик 2">
+                <h3 class="about-team__item-title">Григорий Векслер</h3>
+                <p class="about-team__item-desc">Редактор-Постановщик</p>
               </li>
-              <li class="index-services__item">
-                <a class="index-services__item-link" href="#">
-                  <img src="img/nav-3.jpg" alt="Картинка">
-                  <h3 class="index-services__item-title index-services__item-title--primary">создание контента для соц. сетей</h3>
-                </a>
+              <li class="about-team__item">
+                <img src="img/team-3.jpg" alt="Красотка">
+                <h3 class="about-team__item-title">Алина Ретюхина</h3>
+                <p class="about-team__item-desc">Режиссер</p>
               </li>
-              <li class="index-services__item">
-                <a class="index-services__item-link" href="#">
-                  <img src="img/nav-4.jpg" alt="Картинка">
-                  <h3 class="index-services__item-title index-services__item-title--primary">корпоративные ролики</h3>
-                </a>
-              </li>
-              <li class="index-services__item">
-                <a class="index-services__item-link" href="#">
-                  <img src="img/nav-5.jpg" alt="Картинка">
-                  <h3 class="index-services__item-title">food-съемка</h3>
-                </a>
-              </li>
-              <li class="index-services__item">
-                <a class="index-services__item-link" href="#">
-                  <img src="img/nav-6.jpg" alt="Картинка">
-                  <h3 class="index-services__item-title">отчётные ролики с мероприятий</h3>
-                </a>
+              <li class="about-team__item">
+                <img src="img/team-4.jpg" alt="Красавчик 3">
+                <h3 class="about-team__item-title">Александр Костров</h3>
+                <p class="about-team__item-desc">Режиссер Монтажа</p>
               </li>
             </ul>
-            <a class="index-services__main-link" href="#">Расчитать стоимость</a>
           </section>
           <section class="main__clients clients">
             <ul class="clients__list">
@@ -184,6 +128,6 @@
           </li>
         </ul>
       </footer>
-    
+    </div>
   </body>
 </html>
