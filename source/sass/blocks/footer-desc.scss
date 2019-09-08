@@ -1,0 +1,28 @@
+.footer-desc {
+  &__title {
+    position: relative;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: $white;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 16px;
+      left: 0;
+      width: 139px;
+      height: 2px;
+      background: $white;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: $white;
+    opacity: 0.7;
+  }
+}

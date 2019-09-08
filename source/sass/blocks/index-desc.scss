@@ -1,0 +1,21 @@
+.index-desc {
+  padding: 80px 80px 180px 80px;
+  background: $black__1;
+  text-align: center;
+  color: $white;
+
+  &__title {
+    margin: 0 0 78px 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+  }
+}

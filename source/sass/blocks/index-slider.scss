@@ -1,0 +1,47 @@
+.index-slider {
+  position: relative;
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    padding: 0;
+    border: none;
+
+    &--next {
+      left: 1800px;
+      transform: rotate(180deg);
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 69px;
+      height: 3px;
+      background: $white;
+    }
+
+    &::after {
+      top: -10px;
+      width: 20px;
+      height: 20px;
+      background: transparent;
+      border-top: 3px solid $white;
+      border-left: 3px solid $white;
+      transform: rotate(-45deg);
+    }
+  }
+}
